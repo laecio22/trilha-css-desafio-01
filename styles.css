@@ -145,8 +145,7 @@ main {
   background-size: cover;
   padding: 20rem;
   background-repeat: no-repeat; 
-  background-attachment: fixed;
- 
+  background-attachment: fixed; 
 }
 
 #transform-world p {

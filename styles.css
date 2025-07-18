@@ -139,4 +139,22 @@ main {
   color: #33A8DB;
 }
 
+#transform-world {
+  height: 50rem;
+  background-image: url(./assets/images/woman-code.png);
+  background-size: cover;
+  padding: 20rem;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+ 
+}
+
+#transform-world p {
+  font-weight: 900;
+  font-size: 4rem;
+  text-shadow: 2px 2px 1px #33A8DB;
+  width: 30rem;
+  text-align: left;
+  word-break: keep-all;
+}
 

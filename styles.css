@@ -91,6 +91,7 @@ img {
 main {
   background-color: #000;
   color: #fff;
+  overflow: hidden;
 }
 
 #course-content {
@@ -195,3 +196,49 @@ footer {
   color: #fff;
   padding: 6rem 0;
 }
+
+footer p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+footer a  {
+  color: #31a8dd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 670px) {
+  .modules-list {
+    width: 95%;
+    text-align: left;
+  }
+
+  .module {
+    height: 8rem;
+    padding: 1.6rem 6rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .banner-content h1,
+  #course-content h2 {
+    text-align: center;
+  }
+
+  .module {
+    padding: 1.6rem 6rem;
+    height: 10rem;
+  }
+
+  #transform-world {
+    padding: 20rem 4rem;
+    background-position: center;
+  }
+
+  #transform-world p {
+    font-size: 2.8rem ;
+  }
+}
+
+
